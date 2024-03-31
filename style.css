@@ -433,4 +433,26 @@ header nav .home-color {
 }
 #takeaway .imgbox {
   width: 520px;
+}
+
+#support .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: white;
+  margin: 0 70px 0 40px;
+  line-height: 1.1;
+}
+#support .textbox span {
+  color: rgba(36, 102, 114, 0.5137254902);
+}
+#support .textbox .btn {
+  background-color: white;
+  margin: 30px 0 0 40px;
+  color: #38b6c1;
+  padding: 10px 30px;
+  margin: 30px 0 0 40px;
+  font-size: 22px;
+}
+#support .bgc {
+  background-color: #35b6c1;
 }/*# sourceMappingURL=style.css.map */
