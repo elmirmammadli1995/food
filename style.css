@@ -535,9 +535,26 @@ header nav .home-color {
   margin: 30px 0 0 40px;
   color: #38b6c1;
   padding: 10px 30px;
-  margin: 30px 0 0 40px;
   font-size: 22px;
 }
 #support .bgc {
   background-color: #35b6c1;
+}
+@media screen and (max-width: 576px) {
+  #support .imgbox {
+    margin-bottom: 25px;
+  }
+  #support .textbox {
+    padding: 60px 0;
+  }
+  #support .textbox h1 {
+    font-size: 65px;
+    padding: 40px 130px 30px 0;
+    margin: 0;
+  }
+  #support .textbox .btn {
+    font-size: 27px;
+    padding: 18px 100px;
+    margin: 30px 0 0 0;
+  }
 }/*# sourceMappingURL=style.css.map */
