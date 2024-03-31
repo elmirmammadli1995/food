@@ -16,5 +16,38 @@
             padding: 13px 34px
             border-radius: 5px
             font-size: 20px
-    .imgbox
-        width: 520px
+    .box
+        .imgbox
+            width: 520px
+
+    @media screen and ( max-width: 768px )
+        .textbox
+            padding: 0 70px
+            text-align: center
+            h1
+                font-size: 35px
+            h5
+                font-size: 14px
+                margin: 20px 0 40px
+            .btn
+                font-size: 14px
+                padding: 8px 20px
+                margin-bottom: 60px
+        .box
+            display: flex
+            justify-content: center
+            .imgbox
+                width: 300px
+
+    @media screen and ( max-width: 576px )
+        .textbox
+            text-align: center
+            h1
+                font-size: 67px
+            h5
+                font-size: 27px
+                margin: 25px 0 50px
+            .btn
+                font-size: 24px
+                padding: 15px 80px
+                margin-bottom: 60px

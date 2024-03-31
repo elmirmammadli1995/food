@@ -474,8 +474,50 @@ header nav .home-color {
   border-radius: 5px;
   font-size: 20px;
 }
-#takeaway .imgbox {
+#takeaway .box .imgbox {
   width: 520px;
+}
+@media screen and (max-width: 768px) {
+  #takeaway .textbox {
+    padding: 0 70px;
+    text-align: center;
+  }
+  #takeaway .textbox h1 {
+    font-size: 35px;
+  }
+  #takeaway .textbox h5 {
+    font-size: 14px;
+    margin: 20px 0 40px;
+  }
+  #takeaway .textbox .btn {
+    font-size: 14px;
+    padding: 8px 20px;
+    margin-bottom: 60px;
+  }
+  #takeaway .box {
+    display: flex;
+    justify-content: center;
+  }
+  #takeaway .box .imgbox {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #takeaway .textbox {
+    text-align: center;
+  }
+  #takeaway .textbox h1 {
+    font-size: 67px;
+  }
+  #takeaway .textbox h5 {
+    font-size: 27px;
+    margin: 25px 0 50px;
+  }
+  #takeaway .textbox .btn {
+    font-size: 24px;
+    padding: 15px 80px;
+    margin-bottom: 60px;
+  }
 }
 
 #support .textbox h1 {
