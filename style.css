@@ -123,7 +123,7 @@ header nav .home-color {
 #delivered .box h4 {
   font-size: 20px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #delivered .box {
     text-align: center;
   }
