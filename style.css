@@ -389,7 +389,7 @@ header nav .home-color {
   margin-top: 50px;
 }
 
-#checkout .imgbox {
+#checkout .minibox .imgbox {
   width: 600px;
 }
 #checkout .textbox h1 {
@@ -408,6 +408,49 @@ header nav .home-color {
   background-color: #38b6c1;
   padding: 13px 34px;
   border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  #checkout .minibox {
+    margin-top: 40px;
+  }
+  #checkout .textbox {
+    text-align: center;
+  }
+  #checkout .textbox h1 {
+    font-size: 50px;
+  }
+  #checkout .textbox h5 {
+    font-size: 17px;
+    margin: 25px 0 35px 0;
+  }
+  #checkout .textbox .btn {
+    font-size: 15px;
+    padding: 10px 28px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #checkout .minibox {
+    display: flex;
+    justify-content: center;
+  }
+  #checkout .minibox .imgbox {
+    width: 500px;
+  }
+  #checkout .textbox {
+    text-align: center;
+  }
+  #checkout .textbox h1 {
+    font-size: 70px;
+    margin-top: 80px;
+  }
+  #checkout .textbox h5 {
+    font-size: 26px;
+    margin: 40px 0 50px 0;
+  }
+  #checkout .textbox .btn {
+    font-size: 25px;
+    padding: 16px 80px;
+  }
 }
 
 #takeaway {

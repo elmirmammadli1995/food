@@ -1,6 +1,7 @@
 #checkout
-    .imgbox
-        width: 600px
+    .minibox
+        .imgbox
+            width: 600px
     .textbox
         h1
             font-weight: 700
@@ -16,3 +17,35 @@
             background-color: #38b6c1
             padding: 13px 34px
             border-radius: 5px
+
+    @media screen and ( max-width: 768px )
+        .minibox
+            margin-top: 40px
+        .textbox
+            text-align: center
+            h1
+                font-size: 50px
+            h5
+                font-size: 17px
+                margin: 25px 0 35px 0
+            .btn
+                font-size: 15px
+                padding: 10px 28px
+
+    @media screen and ( max-width: 576px )
+        .minibox
+            display: flex
+            justify-content: center
+            .imgbox
+                width: 500px
+        .textbox
+            text-align: center
+            h1
+                font-size: 70px
+                margin-top: 80px
+            h5
+                font-size: 26px
+                margin: 40px 0 50px 0
+            .btn
+                font-size: 25px
+                padding: 16px 80px
