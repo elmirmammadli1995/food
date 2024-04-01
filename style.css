@@ -388,6 +388,9 @@ header nav .home-color {
   margin-top: 50px;
 }
 
+#checkout .minibox .imgbox {
+  width: 500px;
+}
 #checkout .textbox h1 {
   font-weight: 700;
   font-size: 60px;
@@ -407,7 +410,11 @@ header nav .home-color {
 }
 @media screen and (max-width: 768px) {
   #checkout .minibox {
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  #checkout .minibox .imgbox {
+    width: 400px;
   }
   #checkout .textbox {
     text-align: center;
@@ -430,7 +437,7 @@ header nav .home-color {
     justify-content: center;
   }
   #checkout .minibox .imgbox {
-    width: 500px;
+    width: 300px;
   }
   #checkout .textbox {
     text-align: center;
