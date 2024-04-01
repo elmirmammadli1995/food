@@ -477,8 +477,12 @@ header nav .home-color {
   border-radius: 5px;
   font-size: 20px;
 }
+#takeaway .box .imgbox {
+  width: 400px;
+}
 @media screen and (max-width: 768px) {
   #takeaway .textbox {
+    padding: 0 30px;
     text-align: center;
   }
   #takeaway .textbox h1 {
