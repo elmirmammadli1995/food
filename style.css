@@ -132,6 +132,7 @@ header nav .home-color {
   }
   #delivered .box .textbox h1 {
     font-size: 40px;
+    padding: 0 30px;
     margin: 0;
   }
   #delivered .box .textbox h5 {
@@ -157,6 +158,7 @@ header nav .home-color {
   }
   #delivered .box .textbox h1 {
     font-size: 75px;
+    padding: 0 30px;
     margin: 0;
   }
   #delivered .box .textbox h5 {
