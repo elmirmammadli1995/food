@@ -1,6 +1,7 @@
 #delivered
     background-color: #f4fafb
     .box
+        padding-left: 20px
         h1
             font-weight: 700
             font-size: 68px
@@ -26,6 +27,23 @@
 
     @media screen and ( max-width: 992px )
         .box
+            padding: 0
+            text-align: center
+            h1
+                font-size: 60px
+                margin: 0
+            h5
+                font-size: 18px
+                margin: 20px 0 40px
+            .minibox
+                display: flex
+                justify-content: center
+                align-items: center
+            h4
+                margin-bottom: 50px
+
+    @media screen and ( max-width: 768px )
+        .box
             text-align: center
             .textbox
                 margin: 40px 0
@@ -42,7 +60,7 @@
                 justify-content: center
                 align-items: center
             h4
-                margin-bottom: 80px
+                margin-bottom: 50px
 
     @media screen and ( max-width: 576px )
         .box
@@ -64,4 +82,4 @@
                 justify-content: center
                 align-items: center
             h4
-                margin-bottom: 80px
+                margin-bottom: 50px

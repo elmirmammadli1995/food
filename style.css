@@ -95,6 +95,9 @@ header nav .home-color {
 #delivered {
   background-color: #f4fafb;
 }
+#delivered .box {
+  padding-left: 20px;
+}
 #delivered .box h1 {
   font-weight: 700;
   font-size: 68px;
@@ -125,6 +128,28 @@ header nav .home-color {
 }
 @media screen and (max-width: 992px) {
   #delivered .box {
+    padding: 0;
+    text-align: center;
+  }
+  #delivered .box h1 {
+    font-size: 60px;
+    margin: 0;
+  }
+  #delivered .box h5 {
+    font-size: 18px;
+    margin: 20px 0 40px;
+  }
+  #delivered .box .minibox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #delivered .box h4 {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #delivered .box {
     text-align: center;
   }
   #delivered .box .textbox {
@@ -146,7 +171,7 @@ header nav .home-color {
     align-items: center;
   }
   #delivered .box h4 {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -175,7 +200,7 @@ header nav .home-color {
     align-items: center;
   }
   #delivered .box h4 {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
   }
 }
 
