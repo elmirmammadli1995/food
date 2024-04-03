@@ -511,9 +511,9 @@ header nav .home-color {
 #takeaway .box .imgbox {
   width: 400px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #takeaway .textbox {
-    padding: 0 30px;
+    padding: 0 50px;
     text-align: center;
   }
   #takeaway .textbox h1 {
