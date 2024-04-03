@@ -52,7 +52,7 @@
                     border: 1px solid #e1e1e1
                     background-color: #e9e9e9
                     width: 50px
-                    padding: 10 20px
+                    padding: 10px 20px
                 .btn
                     background-color: #3cc1d8
                     color: #ffff
@@ -61,48 +61,68 @@
         padding: 17px 53px
         margin-top: 50px
 
-    @media screen and ( max-width: 576px )
+    @media screen and ( max-width: 992px )
         .box
-            background-color: #ffff
             margin: 10px 0
-            padding: 25px 20px
+            padding: 30px
+            .imgbox
+                width: 120px
+            .textbox
+                margin-left: 20px
+                .minibox
+                    h2
+                        font-size: 18px
+                    h5
+                        font-size: 14px
+                p
+                    font-size: 15px
+                    margin: 15px 0
+
+    @media screen and ( max-width: 768px )
+        .box
+            padding: 15px
             display: flex
             justify-content: center
             flex-direction: column
-            // width: 400px
             .imgbox
                 width: 100%
                 height: 100%
-                border-radius: 10px
             .textbox
-                width: auto
-                text-align: left
-                // margin-left: 20px
                 margin: 0
                 .minibox
                     display: flex
                     flex-direction: column
                     h2
-                        font-weight: 700
-                        font-size: 27px
+                        font-size: 20px
                         margin: 15px 0 10px
                     h5
-                        color: #3cc1d8
-                        font-size: 25px
+                        font-size: 14px
                         line-height: 1.4
                 p
-                    font-size: 18px
-                    color: #232f4285
+                    font-size: 15px
                     margin: 10px 0
-                    line-height: 1.2
-                .add
+
+    @media screen and ( max-width: 576px )
+        .textbox
+            width: 400px
+        .box
+            padding: 15px
+            display: flex
+            justify-content: center
+            flex-direction: column
+            width: 400px
+            .imgbox
+                width: 100%
+                height: 100%
+            .textbox
+                margin: 0
+                .minibox
                     display: flex
-                    input
-                        border: 1px solid #e1e1e1
-                        background-color: #e9e9e9
-                        width: 50px
-                        padding: 10px 20px
-                    .btn
-                        background-color: #3cc1d8
-                        color: #ffff
-                        padding: 10px 25px
+                    flex-direction: column
+                    h2
+                        font-size: 25px
+                        margin: 15px 0 10px
+                    h5
+                        line-height: 1.4
+                p
+                    margin: 10px 0
