@@ -439,7 +439,7 @@ header nav .home-color {
   padding: 13px 34px;
   border-radius: 5px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #checkout .minibox {
     display: flex;
     justify-content: center;
