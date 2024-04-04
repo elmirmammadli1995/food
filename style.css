@@ -74,15 +74,15 @@ header nav .home-color {
 @media screen and (max-width: 576px) {
   header .menu {
     height: 70px;
-    padding-top: 15px;
+    padding: 10px 25px;
   }
   header .menu .imgbox {
     width: 40px;
   }
   header .menu .box .btn {
     display: flex;
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
   }
   header .menu .box .cart {
     margin-right: 15px;
