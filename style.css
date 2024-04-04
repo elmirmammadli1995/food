@@ -595,7 +595,6 @@ header nav .home-color {
 }
 @media screen and (max-width: 992px) {
   #takeaway .textbox {
-    padding: 0 50px;
     text-align: center;
   }
   #takeaway .textbox h1 {
