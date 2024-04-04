@@ -161,7 +161,7 @@ header nav .home-color {
   }
   #delivered .box .textbox h5 {
     font-size: 13px;
-    margin: 0;
+    margin: 15px 0 0;
   }
   #delivered .box .minibox {
     display: flex;
