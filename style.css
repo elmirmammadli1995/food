@@ -656,27 +656,15 @@ header nav .home-color {
   background-color: #35b6c1;
 }
 @media screen and (max-width: 992px) {
+  #support .col-md-12 {
+    padding: 0;
+  }
   #support .textbox {
     height: 350px;
   }
   #support .textbox h1 {
-    font-size: 30px;
-    margin: 60px 130px 0 0;
-    padding: 50px 90px 20px 0;
-  }
-  #support .textbox .btn {
-    margin-right: 50px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #support .col-md-6 {
-    padding: 0;
-  }
-  #support .imgbox {
-    margin-bottom: 20px;
-  }
-  #support .textbox {
-    padding: 20px;
+    font-size: 50px;
+    margin-top: 60px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -684,7 +672,7 @@ header nav .home-color {
     margin-bottom: 25px;
   }
   #support .textbox {
-    height: 370px;
+    margin-left: 30px;
   }
   #support .textbox h1 {
     font-size: 50px;
@@ -693,7 +681,15 @@ header nav .home-color {
   }
   #support .textbox .btn {
     font-size: 20px;
-    padding: 14px 80px;
+    padding: 14px 40px;
     margin: 40px 0 0 0;
+  }
+}
+@media screen and (max-width: 359px) {
+  #support .textbox {
+    height: 400px;
+  }
+  #support .btn {
+    margin-bottom: 30px;
   }
 }/*# sourceMappingURL=style.css.map */

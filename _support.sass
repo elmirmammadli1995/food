@@ -17,38 +17,31 @@
     .bgc
         background-color: #35b6c1
 
-    
-
     @media screen and ( max-width: 992px )
+        .col-md-12
+            padding: 0
         .textbox
             height: 350px
             h1
-                font-size: 30px
-                margin: 60px 130px 0 0
-                padding: 50px 90px 20px 0
-                // margin: 0
-            .btn
-                margin-right: 50px
-
-    @media screen and ( max-width: 768px )
-        .col-md-6
-            padding: 0
-        .imgbox
-            margin-bottom: 20px
-        .textbox
-            padding: 20px
+                font-size: 50px
+                margin-top: 60px
 
     @media screen and ( max-width: 576px )
         .imgbox
             margin-bottom: 25px
         .textbox
-            height: 370px
+            margin-left: 30px
             h1
                 font-size: 50px
                 padding: 50px 60px 0 0
                 margin: 0
             .btn
                 font-size: 20px
-                padding: 14px 80px
+                padding: 14px 40px
                 margin: 40px 0 0 0
-        
+
+    @media screen and ( max-width: 359px )
+        .textbox
+            height: 400px
+        .btn
+            margin-bottom: 30px
