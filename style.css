@@ -25,7 +25,7 @@ header .menu {
   z-index: 1;
 }
 header .imgbox {
-  margin: 30px 0 0 30px;
+  margin: 0 0 5px 10px;
   width: 40px;
 }
 header .box {
